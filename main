@@ -1,0 +1,13 @@
+# 1. Cloner votre dépôt vide
+git clone https://github.com/jeremyberger892-ship-it/N-gociation.git
+cd N-gociation
+
+# 2. Copier les 6 fichiers dedans :
+#    index.html, photo-formateur.jpg, logo-jeremy-berger.png,
+#    banniere.png, programme_formation_v2.pdf,
+#    Livret_Stagiaire_Negociation_Jeremy_Berger.docx
+
+# 3. Publier
+git add .
+git commit -m "🚀 Déploiement formation Négociation Commerciale"
+git push origin main
